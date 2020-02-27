@@ -8,7 +8,13 @@ package metodos;
 public class Calculos {
     
     public Double result;
+    /*
+    Cada método corresponde a uma das operações básicas, os métodos recebem as strings val e as convertem para
+    double, em seguida fazem a operação matemática básica.
     
+    Each method corresponds to one of the basic operations, the methods take the strings val and convert them 
+    to double, then do the basic mathematical operation.
+    */
     public Double soma(String val1, String val2){
         Double num1 = Double.parseDouble(val1);
         Double num2 = Double.parseDouble(val2);
